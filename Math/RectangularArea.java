@@ -22,5 +22,7 @@ public class RectangularArea{
         System.out.println("Width = "+width);
         System.out.println("Area = "+ area + " cm^2");
 
+        scanner.close();
+
     }
 }

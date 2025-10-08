@@ -21,5 +21,7 @@ public class SumOfDigits {
         int sumOfDigits = firstDigit + secondDigit + thirdDigit ;
         
         System.out.println("The sum of the digits is " + sumOfDigits);
+        
     }
+    
 }

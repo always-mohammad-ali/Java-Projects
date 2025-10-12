@@ -16,7 +16,7 @@ public class NumberOfYears {
         long remainderdays = days % 365;
         
         
-        System.out.println("Approximately " + years + " years and " + remainderdays);
+        System.out.println("Approximately " + years + " years and " + remainderdays + "days");
         
     }
 }

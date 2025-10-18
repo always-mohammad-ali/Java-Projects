@@ -1,0 +1,5 @@
+
+Exercise #5
+This is linux text editor exercise
+we finally made it
+

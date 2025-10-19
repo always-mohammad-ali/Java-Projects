@@ -31,6 +31,7 @@ public class CountDigit {
             n = n / 10;
                   
         }
+        
         System.out.println("The original no : " + original);
         System.out.println("Total digit no : " + count );
         System.out.println("The reverse no : " + reverse);

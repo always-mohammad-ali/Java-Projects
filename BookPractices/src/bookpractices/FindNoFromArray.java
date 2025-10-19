@@ -28,6 +28,7 @@ public class FindNoFromArray {
         if(count >= 1){
             System.out.println("Found that Random number " + randomNumber + " = " + count + " times. ");
         }
+        
         else{
             System.out.println("Didn't found");
         }

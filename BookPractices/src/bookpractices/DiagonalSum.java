@@ -33,8 +33,7 @@ public class DiagonalSum {
         }
         System.out.println("Total sum of main diagonal is " + sum);
         
-        
-        
+       
         
     }
 }

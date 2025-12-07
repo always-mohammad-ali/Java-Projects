@@ -38,6 +38,7 @@ public class Box {
     public double getWidth(){
         return this.width;
     }
+    
     public double getHeight(){
         return this.height;
     }

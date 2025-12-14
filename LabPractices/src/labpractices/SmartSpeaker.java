@@ -1,13 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package labpractices;
 
-/**
- *
- * @author shohe
- */
-public class SmartSpeaker {
+
+public class SmartSpeaker extends EntertainmentDevice implements VoiceControllable {
+    private String currentSong;
+
+    public SmartSpeaker(String currentSong) {
+        this.currentSong = currentSong;
+    }
+    
     
 }

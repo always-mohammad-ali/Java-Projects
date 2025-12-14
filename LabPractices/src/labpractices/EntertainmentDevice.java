@@ -8,6 +8,26 @@ package labpractices;
  *
  * @author shohe
  */
-public class EntertainmentDevice {
+public abstract class EntertainmentDevice extends Device {
+    private int volume;
+
+    public int getVolume() {
+        return volume;
+    }
+
+    public void setVolume(int volume) {
+        this.volume = volume;
+    }
     
+    
+    
+    public void increaseVolume(){
+        System.out.println("Volume is increasing");
+    }
+    
+    public void decreaseVolume(){
+        System.out.println("Volume is decreasing");
+    }
+    
+    public abstract void playContent();
 }

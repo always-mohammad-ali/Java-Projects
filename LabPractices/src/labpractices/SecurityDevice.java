@@ -1,13 +1,24 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package labpractices;
 
-/**
- *
- * @author shohe
- */
-public class SecurityDevice {
+public abstract class SecurityDevice extends Device{
+    private boolean isArmed;
+
+    public boolean isIsArmed() {
+        return isArmed;
+    }
+
+    public void setIsArmed(boolean isArmed) {
+        this.isArmed = isArmed;
+    }
     
+    public void armDevice(){
+          System.out.println("this is armDevice");
+    }
+    
+    public void disarmDevice(){
+        System.out.println("This is disArmDevice");
+    }
+    
+    public abstract String checkSecurity();
 }
